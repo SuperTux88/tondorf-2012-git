@@ -1,0 +1,43 @@
+Vortragsnotes:
+git log --graph --all --decorate --oneline --color
+
+export PAGER="/bin/cat"
+
+
+Slides:
+
+
+
+Agenda:
+1) Git History, was ist das? [x] 
+2) Git basics
+	-> git repo initialisieren
+	-> commits machen
+	-> git log anzeigen
+	-> ignoring files
+3) Git internals (local git repo) 
+4) Branchen / Mergen / Multi branch merging / Tagging
+
+5) remotes / pull / push / fetch foo
+6) Advanced Features
+	-> reset [x]
+	-> Cherry-Pick
+	-> Rebase [x]
+	-> bisect [x]
+	-> git blame [x]
+
+
+7) Migration von Entwicklerteams auf GIT
+	-> Toolchain
+		-> Gitolite / Gitosis
+		-> Gitweb
+		-> TortoiseGit
+		-> Git linux
+		-> EGIT
+		-> JGIT
+		-> msysgit (cygwin)
+	-> Erfahrungen
+		-> Entwickler intensiv schulen
+		-> Branch (Broken, export des branches als Trunk und mit git-patch hocharbeiten)
+
+8) Freestyle

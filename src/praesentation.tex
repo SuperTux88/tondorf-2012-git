@@ -1,0 +1,77 @@
+\documentclass{beamer}
+
+% uncomment to generate printer friendly scaled version
+\usepackage{pgfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\usetheme{Darmstadt} % default theme
+% BUILD SCRIPT HOOKS - DO NOT REMOVE THIS COMMENTS %
+%%%%%THEME_PLACEHOLDER_JENKINSBUILD%%%%%
+%%%%%HANDOUT_PLACEHOLDER_JENKINSBUILD%%%%%
+% END OF BUILD SCRIPT HOOKS %
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
+
+\setbeamercovered{transparent}
+%\setbeamertemplate{footline}[frame number]
+
+\title{GIT}
+\subtitle{}
+
+\institute[Tondorf]{Tondorf 2012}
+
+\author[F. Becker/B. Neff]{
+	Felix Becker / Benjamin Neff
+}
+
+\begin{document}
+
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Inhalt}
+		\setcounter{tocdepth}{1}
+		\tableofcontents
+	\end{frame}
+	
+	\section{Basics}
+	
+		\subsection{Commits}
+			
+			\begin{frame}
+				\frametitle{Befehle}
+				
+				\begin{itemize}
+					\item{git init}
+					\item{git add}
+					\item{git commit}
+					\item{git log}
+				\end{itemize}
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{Files}
+				
+				\begin{itemize}
+					\item{.gitignore}
+					\item{.git/config}
+				\end{itemize}
+			\end{frame}
+
+
+	\section{Ende}
+		\subsection{Fragen}
+
+			\begin{frame}
+				Fragen? Nein? Danke!
+
+				\begin{center}
+					\includegraphics[height=0.4\textheight]{img/fuck-yeah}
+				\end{center}
+			\end{frame}
+\end{document}
